@@ -37,12 +37,22 @@ h1 {
 a {
   color: #0074d9;
   text-align: center;
-  list-style-type: none;
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover {
-  background-color: #0074d9;
   color: #fff;
+  background-color: #0074d9;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:first-child {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  background-color: #0074d9;
 }
