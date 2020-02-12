@@ -47,12 +47,12 @@ a:hover {
 }
 
 li {
+  text-align: center;
+  display: inline-block;
   list-style-type: none;
 }
 
 li:first-child {
   color: #fff;
-  text-align: center;
-  display: inline-block;
   background-color: #0074d9;
 }
